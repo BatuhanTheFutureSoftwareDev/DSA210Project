@@ -1,4 +1,4 @@
-# DSA210Project
+# My Twitter Activity During Major Events
 
 ## Project Overview
 
