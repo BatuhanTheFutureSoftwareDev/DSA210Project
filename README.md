@@ -10,7 +10,7 @@ The goal is to uncover patterns in my Twitter activity, such as tweeting, retwee
 
 ## Motivation
 
-As an active Twitter user, I’ve observed how my activity fluctuates during key socio-political and natural events, such as elections and disasters. This project is driven by my curiosity to explore how my Twitter usage correlates with such events and to understand the broader implications of digital engagement during crises. By analyzing this data, I hope to gain insights into how individuals like myself interact with critical moments in history, contributing to the larger discourse on the role of social media in modern society
+As an active Twitter user, I’ve observed how my activity fluctuates during key socio-political and natural events, such as elections and disasters. This project is driven by my curiosity to explore how my Twitter usage correlates with such events and to understand the broader implications of digital engagement during crises. By analyzing this data, I hope to gain insights into how individuals like myself interact with critical moments in history, contributing to the larger discourse on the role of social media in modern society.
 
 ## Dataset
 
