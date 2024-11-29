@@ -3,8 +3,9 @@
 ## Project Overview
 
 This project aims to analyze the relationship between my personal Twitter engagement and significant socio-political and natural events, focusing on:
-1.	Two major election days.
-2.	The February 6th earthquake in Turkey.
+1.	The May 14th and 28th, 2023 presidential elections of Turkey. 
+2.	The March 31st, 2024 municipal elections of Turkey.
+3.	The February 6th, 2023 earthquake in Turkey.
 
 The goal is to uncover patterns in my Twitter activity, such as tweeting, retweeting, and engagement levels, and to explore correlations with public sentiment and trends during these critical events.
 
