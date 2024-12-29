@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib
-matplotlib.use('Agg')  # Use the non-interactive Agg backend, otherwise causes error for MacOS
+matplotlib.use('Agg')  # Use the non-interactive Agg backend, otherwise causes error on MacOS
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
