@@ -1,3 +1,4 @@
+// This file is anonymized and provided solely to illustrate the dataset’s format.
 [
   {
     "tweet" : {
@@ -96,3 +97,4 @@
       "in_reply_to_user_id_str" : "***"
     }
   },
+  
