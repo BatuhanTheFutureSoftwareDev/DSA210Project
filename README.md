@@ -9,7 +9,7 @@ This project aims to analyze the relationship between my personal Twitter engage
 
 The goal is to uncover patterns in my Twitter activity, such as tweeting, retweeting, and engagement levels, and to explore correlations with public sentiment and trends during these critical events.
 
-For a detailed explanation of this project, see the presentation included in the repository.
+For a detailed explanation of this project, [see the presentation](https://github.com/BatuhanTheFutureSoftwareDev/my-twitter-activity-during-major-events/tree/fe08e06fdc819002219463769562ca9dd8550259/presentation) included in the repository.
 
 ## Motivation
 
