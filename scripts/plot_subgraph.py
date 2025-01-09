@@ -23,6 +23,8 @@ def plot_activity_window(center_date_str, window_days, csv_file_path='daily_twee
         print(f"Error: Could not parse the file '{csv_file_path}'. Please check the file format.")
         return
 
+    df['total_activity'] = df['tweet_count'] + df['retweet_count']
+
     mask = (df['date'] >= start_date) & (df['date'] <= end_date)
     window_df = df.loc[mask].copy()
 
@@ -35,8 +37,8 @@ def plot_activity_window(center_date_str, window_days, csv_file_path='daily_twee
     plt.figure(figsize=(14, 7))
     plt.plot(window_df['date'], window_df['total_activity'], marker='o', linestyle='-', color='blue', label='Total Activity')
 
-    plt.gca().xaxis.set_major_locator(mdates.WeekdayLocator(interval=1))  # Major ticks every week
-    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))  # Format as 'YYYY-MM-DD'
+    plt.gca().xaxis.set_major_locator(mdates.WeekdayLocator(interval=1)) 
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d')) 
 
     plt.xlabel('Date')
     plt.ylabel('Number of Tweets and Retweets')
@@ -47,13 +49,13 @@ def plot_activity_window(center_date_str, window_days, csv_file_path='daily_twee
 
     plt.xticks(rotation=45)
 
-    if save_plot: # optional
+    if save_plot:  # Optional: Save the plot
         safe_center_date_str = center_date.strftime('%m-%d-%Y')  # Format: 'MM-DD-YYYY'
         output_file = f'all_activity_window_around_{safe_center_date_str}.png'
         plt.savefig(output_file)
         print(f"Plot has been saved as '{output_file}'.")
 
-if __name__ == "__main__": # A demonstration
+if __name__ == "__main__":  # A demonstration
     # Define the center date and window
     center_date_input = '5/14/2023'  # Format: 'MM/DD/YYYY'
     window_days_input = 30  # Number of days before and after the center date
