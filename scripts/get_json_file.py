@@ -2,7 +2,7 @@ import re
 import json
 
 # Step 1: Load the JavaScript file
-input_file = "/Users/kiziltasbatu/VSCodeProjects/PY1/tweets.js"  # Replace with the path to your file
+input_file = "path/to/your/file/tweets.js"  # Replace with the path to your file
 output_file = "my_tweets.json"
 
 with open(input_file, "r") as file:
