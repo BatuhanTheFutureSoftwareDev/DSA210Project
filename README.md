@@ -57,7 +57,6 @@ __Deliverables__
 
 Regular updates will be made to this repository, including:
 * Data preprocessing scripts.
-* Analysis notebooks.
 * Visualizations and results.
 
 ## Usage
